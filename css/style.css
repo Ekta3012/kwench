@@ -1,0 +1,197 @@
+html, body {
+height: 100%;
+font-family: 'Roboto', sans-serif;
+}
+.intro{
+    background-image: url('img/office.jpg');
+}
+#scene{
+    margin-top:23%;
+    margin-left: 10%;
+}
+.trio{
+    margin-left: 150%;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 600px;
+}
+.parallax-img{
+    height: 17em;
+}
+.contact{
+    background-color: red;
+    color:white;
+    padding: 0.5%;
+}
+.items{
+    list-style:none;
+}
+.items li{
+    float: right;
+    margin-right:2%;
+}
+.navbar-nav a,.navbar-brand{
+    color: #000;
+}
+#imgs {
+display: block;
+padding: 0;
+}
+
+#imgs li {
+padding-right: 20px;
+display: inline-block;
+*display:inline;
+}
+
+#imgs img {
+height: 80px;
+}
+#partners_heading{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    letter-spacing: 0.2em;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    margin: auto;
+    padding: 5% 0%;
+    background: #fff;
+    bottom: -100%;
+    height: 100%;
+    left: 0%;
+    text-align: center;
+    position: absolute;
+    transition: bottom 0.5s ease;
+    width: 100%;
+    background-color: #dcdcdc;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+
+/* Caption text */
+.text {
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    padding: 1%;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 5s;
+animation-name: fade;
+animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+.clients_div{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.clients_div:hover .slideshow-container
+{
+bottom: 0%;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.social_links ul li{
+    float: left;
+    font-size: 1em;
+    padding: 2% 3%;
+    background-color: white;
+    color: red;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+.footer{
+    background-color: red;
+    color: #fff;
+    padding: 2%;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.copyright{
+    background-color: #dcdcdc;
+    padding: 1%;
+}
+
+.team_members{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    margin: auto;
+}
+
+.client_members{
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%; 
+    border:2px solid red; 
+    margin:auto; 
+    margin-bottom: 15%;
+}
+
+.team{
+    padding: 3% 0%;
+}
+
+.team_names{
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    #scene {
+        margin-left: 0%;
+    }
+    .trio{
+        margin-left: 140%;
+    }
+  }
